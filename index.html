@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,25 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-  <header>
-    <div>Header Logo</div>
-    <ul>
-      <li>header link one (0)</li>
-      <li>header link two (1)</li>
-      <li>header link three (2)</li>
-    </ul>
-  </header>
 
+<body>
   <section class="hero">
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-    <button>Sign up</button>
-    <img src="" alt="this is a placeholder for an image" srcset="">
+    <header>
+      <div id="logo">Header Logo</div>
+      <ul id="menu">
+        <li><a href="http://">header link one</a></li>
+        <li><a href="http://">header link two</a></li>
+        <li><a href="http://">header link three</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <p id="hero-main">This website is awesome</p>
+      <p id="hero-secondary">This website has some subtext that goes here under the main title. It's a smaller font and
+        the color is lower contrast</p>
+      <button>Sign up</button>
+      <img src="" alt="this is a placeholder for an image" srcset="">
+    </section>
   </section>
 
   <section class="the-middle">
@@ -31,22 +36,22 @@
         <img src="" alt="" srcset="">
         <p>this is some subtext under an illustration or image</p>
       </div>
-      
+
       <div>
         <img src="" alt="" srcset="">
         <p>this is some subtext under an illustration or image</p>
       </div>
-      
+
       <div>
         <img src="" alt="" srcset="">
         <p>this is some subtext under an illustration or image</p>
       </div>
-      
+
       <div>
         <img src="" alt="" srcset="">
         <p>this is some subtext under an illustration or image</p>
       </div>
-      
+
     </div>
   </section>
 
@@ -60,12 +65,16 @@
     </div>
   </section>
 
+  <div id="call-to-action">
+    <p>Call to action! It's time!<br />
+      <span id="quote">Sign up for our product by clicking that button right over there!</span>
+    </p>
+    <button>Sign Up</button>
+  </div>
+
   <footer>
-    <div class="call-to-action">
-      <p>Call to action! It's time!<br />
-      <span>Sign up for our product by clicking that button right over there!</span></p>
-      <button>Sign Up</button>
-    </div>
+    <p>Copyright &copy; The Odin Project 2021</p>
   </footer>
 </body>
+
 </html>
